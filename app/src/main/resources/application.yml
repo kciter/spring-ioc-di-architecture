@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-ioc-di-architecture
+
+server:
+  port: ${PORT:8080}

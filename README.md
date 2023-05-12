@@ -1,15 +1,3 @@
-# spring-ioc-di-architecture
+# IoC와 DI를 이용한 Spring 아키텍처 예제
 
-This is a Spring project bootstrapped with [`bloom`](https://github.com/cobaltinc/bloom).
-
-## Getting Started
-
-First, run the spring server:
-
-```bash
-./gradlew :app:bootRun
-```
-
-Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
-
-You can see our [architecture documentation](https://github.com/cobaltinc/bloom/blob/main/ARCHITECTURE.md) to develop your project.
+이 저장소는 [블로그 글](https://kciter.so/posts/spring-multi-module-architecture)을 위해 만들어진 예제입니다.

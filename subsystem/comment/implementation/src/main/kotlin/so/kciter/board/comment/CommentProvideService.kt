@@ -1,6 +1,6 @@
-package so.kciter.board.user
+package so.kciter.board.comment
 
-import so.kciter.board.user.model.Comment
+import so.kciter.board.comment.model.Comment
 import org.springframework.stereotype.Service
 import reactor.core.publisher.Flux
 

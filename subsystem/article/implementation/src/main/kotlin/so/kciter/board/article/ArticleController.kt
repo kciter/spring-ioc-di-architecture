@@ -1,7 +1,7 @@
-package so.kciter.board.post
+package so.kciter.board.article
 
-import so.kciter.board.post.model.Article
-import so.kciter.board.user.model.Comment
+import so.kciter.board.article.model.Article
+import so.kciter.board.comment.model.Comment
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.RequestMapping

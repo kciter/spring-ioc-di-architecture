@@ -1,7 +1,7 @@
-package so.kciter.board.user
+package so.kciter.board.comment
 
-import so.kciter.board.post.model.Article
-import so.kciter.board.user.model.Comment
+import so.kciter.board.article.model.Article
+import so.kciter.board.comment.model.Comment
 
 object MockData {
   val comments = listOf(

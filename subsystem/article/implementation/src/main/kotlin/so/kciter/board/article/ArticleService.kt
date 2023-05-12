@@ -1,13 +1,14 @@
-package so.kciter.board.post
+package so.kciter.board.article
 
-import so.kciter.board.post.model.Article
-import so.kciter.board.user.CommentProvided
-import so.kciter.board.user.model.Comment
+import so.kciter.board.article.model.Article
+import so.kciter.board.comment.model.Comment
 import org.springframework.http.HttpStatus
 import org.springframework.stereotype.Service
 import org.springframework.web.server.ResponseStatusException
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono
+import so.kciter.board.article.ArticleProvided
+import so.kciter.board.comment.CommentProvided
 
 @Service
 internal class ArticleService(

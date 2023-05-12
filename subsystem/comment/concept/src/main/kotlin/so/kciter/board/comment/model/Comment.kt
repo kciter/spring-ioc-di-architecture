@@ -1,4 +1,4 @@
-package so.kciter.board.user.model
+package so.kciter.board.comment.model
 
 data class Comment(
   val id: Int,

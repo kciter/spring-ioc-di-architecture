@@ -1,6 +1,6 @@
-package so.kciter.board.user
+package so.kciter.board.comment
 
-import so.kciter.board.user.model.Comment
+import so.kciter.board.comment.model.Comment
 import reactor.core.publisher.Flux
 
 interface CommentProvided {

@@ -1,4 +1,4 @@
-package so.kciter.board.post.model
+package so.kciter.board.article.model
 
 data class Article(
   val id: Int,

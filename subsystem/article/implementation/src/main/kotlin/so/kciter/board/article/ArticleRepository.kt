@@ -1,6 +1,6 @@
-package so.kciter.board.post
+package so.kciter.board.article
 
-import so.kciter.board.post.model.Article
+import so.kciter.board.article.model.Article
 import org.springframework.stereotype.Repository
 import reactor.core.publisher.Flux
 import reactor.core.publisher.Mono

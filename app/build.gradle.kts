@@ -10,6 +10,6 @@ val subsystems = File(subsystemPath).listFiles()
 
 dependencies {
   subsystems?.forEach { subsystem ->
-    this.implementation(project(":subsystem:$subsystem:$subsystem-component"))
+    this.implementation(project(":subsystem:$subsystem:$subsystem-implementation"))
   }
 }

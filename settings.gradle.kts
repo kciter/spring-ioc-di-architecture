@@ -15,8 +15,8 @@ val subsystems = File(subsystemPath).listFiles()
 subsystems?.forEach { subsystem ->
   println("Loaded $subsystem subsystem.")
 
-  include(":subsystem:$subsystem:interface")
-  project(":subsystem:$subsystem:interface").name = "$subsystem-interface"
-  include(":subsystem:$subsystem:component")
-  project(":subsystem:$subsystem:component").name = "$subsystem-component"
+  include(":subsystem:$subsystem:concept")
+  project(":subsystem:$subsystem:concept").name = "$subsystem-concept"
+  include(":subsystem:$subsystem:implementation")
+  project(":subsystem:$subsystem:implementation").name = "$subsystem-implementation"
 }

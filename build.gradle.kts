@@ -1,12 +1,12 @@
 plugins {
-  kotlin("jvm") version "1.7.0"
-  kotlin("plugin.spring") version "1.7.0"
+  kotlin("jvm") version "1.8.0"
+  kotlin("plugin.spring") version "1.8.0"
   id("org.springframework.boot") version "2.7.1"
   id("io.spring.dependency-management") version "1.0.12.RELEASE"
 }
 
 allprojects {
-  group = "springiocdiarchitecture"
+  group = "com.example.board"
   version = "0.0.1"
 
   repositories {

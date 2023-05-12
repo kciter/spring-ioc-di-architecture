@@ -6,7 +6,7 @@ plugins {
 }
 
 allprojects {
-  group = "com.example.board"
+  group = "so.kciter.board"
   version = "0.0.1"
 
   repositories {
